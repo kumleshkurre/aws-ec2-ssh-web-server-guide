@@ -15,7 +15,6 @@ SSH (Secure Shell) allows you to securely control and access a remote machine (E
 - Choose EC2 Instance Connect
 - Click Connect again
 ➝ Linux terminal will open in browser
-
 - 📁 Navigate to Web Server Directory
 ``` cd /var/www/html
  ls
@@ -29,8 +28,7 @@ sudo vi index.html
 - Make changes
 - Press Esc
 - Type :wq → Save & exit
- 
-- 📄 Verify File Content
+ - 📄 Verify File Content
 ```
 cat index.html
 ```
@@ -38,21 +36,23 @@ cat index.html
 - ✅ Changes successfully applied to web page
 
 ---
+
 ## 🪟 SSH into EC2 from Windows (PuTTY)
 - 🔹 Requirements:
 - 🖥️ PuTTY
 - 🔑 PuTTYgen
 - .pem key file (mywebserver-key.pem)
 ---
+
 ## 🔹 Convert PEM to PPK
 - Open PuTTYgen
 - Click Load
 - Select mywebserver-key.pem
 - Click Save private key
 - File saved as mywebserver-key.ppk 🔐
+---
 
   ## 🔹 Connect Using PuTTY
-
 - Open PuTTY
 - In Host Name field, enter:
 - ec2-user@<Public-IP-Address> (Public IP of EC2 instance)
