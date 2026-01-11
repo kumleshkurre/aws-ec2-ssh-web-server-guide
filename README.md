@@ -98,4 +98,4 @@ cat index.html
 Kumlesh Kurre
 💼 IT Support & Network Engineer
 
-⭐ If you find this guide helpful, don’t forget to star ⭐ the GitHub repository
+⭐ If you find this guide helpful, don’t forget to star ⭐ the GitHub repository.
